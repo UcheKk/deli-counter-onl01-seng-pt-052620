@@ -18,6 +18,6 @@ def now_serving(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    puts "Currently serving#{array.shift}"
+    puts "Currently serving#{array.shift}."
   end
 end
