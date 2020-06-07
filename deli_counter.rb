@@ -19,3 +19,5 @@ def now_serving(array)
     puts "The line is currently empty."
   else
     puts "Currently serving#{array.shift}"
+  end
+end
